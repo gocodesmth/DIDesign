@@ -1,31 +1,33 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Manrope", sans-serif;
-    background-color: #fff;
+  font-family: "Manrope", sans-serif;
+  background-color: #fff;
 }
 
 header {
-    background-color: #ffffff;
-    width: 100%;
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 header a {
   text-decoration: none;
+  color: #26367d;
+  font-weight: 600;
 }
 
 .header__logo img{
-    width: 10rem;
-    height: 4rem;
+  width: 10rem;
+  height: 4rem;
 }
 
 ul {
