@@ -13,18 +13,23 @@ body, html {
   height: 100%;
 }
 
+.center {
+  padding-left: calc(50% - 499.5px);
+  padding-right: calc(50% - 499.5px);
+}
+
 header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1000;
   background-color: rgba(255, 255, 255, 0.8);
-  padding-left: 28px;
-  padding-right: 28px;
   padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header a {
@@ -93,6 +98,7 @@ ul li:hover {
 
 .mobile-menu {
   display: none;
+  background-color: rgb(255, 255, 255);
   position: absolute;
   top: 109px;
   left: 0;
@@ -110,8 +116,11 @@ ul li:hover {
   background-size: cover;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 1.5rem;
 }
 
 .hero h1 {
@@ -126,24 +135,39 @@ ul li:hover {
   height: 23rem;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
+  .center {
+    padding-right: calc(50% - 430.5px);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 324.5px);
+    padding-right: calc(50% - 324.5px);
+  }
+
   header nav {
     display: none;
   }
 
   #hamburger-icon {
     display: block;
+    margin-right: 20px;
   }
 
   .hero {
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-content: center;
   }
 
   .hero img {
     width: 22rem;
     height: 15rem;
+    margin-top: 20px;
+
   }
 
 }
