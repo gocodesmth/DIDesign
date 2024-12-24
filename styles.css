@@ -12,11 +12,11 @@ body {
 body, html {
   height: 100%;
 }
-
+ 
 .center {
   padding-left: calc(50% - 499.5px);
   padding-right: calc(50% - 499.5px);
-}
+} 
 
 header {
   position: -webkit-sticky;
@@ -28,7 +28,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -118,13 +117,12 @@ ul li:hover {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
   margin: 0 auto;
   gap: 1.5rem;
 }
 
 .hero h1 {
-  line-height: 4rem;
+  line-height: 3rem;
   font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -133,6 +131,16 @@ ul li:hover {
 .hero img {
   width: 35rem;
   height: 23rem;
+}
+
+.info {
+  display: flex;
+  padding-top: 40px;
+  
+}
+
+.info h1 {
+
 }
 
 @media only screen and (max-width: 1024px) {
