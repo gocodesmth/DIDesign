@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ddaf677.css",
+    "main.js": "/static/js/main.29c0fe22.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/na-gazovykh-trassakh_2015.06.jpg": "/static/media/na-gazovykh-trassakh_2015.06.0a356e725edeaa00e91c.jpg",
+    "static/media/d8001hkfl4bnw6xkxgllu9bkckglvvfr.jpg": "/static/media/d8001hkfl4bnw6xkxgllu9bkckglvvfr.90b9c4431a6dc486aa41.jpg",
+    "static/media/DID-03.png": "/static/media/DID-03.3c8650a57cc74f1e970d.png",
+    "static/media/Puzzle.svg": "/static/media/Puzzle.6f574da62913e38e8cf83b82af64a3ff.svg",
+    "index.html": "/index.html",
+    "static/media/Document.svg": "/static/media/Document.4c3cff1a421a779a9c6686ffb4c22d23.svg",
+    "static/media/Checklist.svg": "/static/media/Checklist.92381b647c4f896f70f39ee5949cfa77.svg",
+    "static/media/Money.svg": "/static/media/Money.c815e0336b3c7d609547a2e341f8629a.svg",
+    "static/media/phone.svg": "/static/media/phone.0421d4dc72448c15d235529bd3ca90eb.svg",
+    "static/media/People.svg": "/static/media/People.6a4e60cc5c4d97e3175ddf3d1e7764e2.svg",
+    "static/media/Rocket.svg": "/static/media/Rocket.c7a7ce6e71576793271aef81af0a2d13.svg",
+    "static/media/Checkmark.svg": "/static/media/Checkmark.0aed1e07fe3abfe3705245655b8e733c.svg",
+    "static/media/mail.svg": "/static/media/mail.b319e5d34578fa1e79c89a4e5b33dc26.svg",
+    "static/media/close.svg": "/static/media/close.b6851a7d405a1e46feacb09b609ec2dc.svg",
+    "static/media/menu.svg": "/static/media/menu.74db66763c780cdd5b35521056800dfd.svg",
+    "main.3ddaf677.css.map": "/static/css/main.3ddaf677.css.map",
+    "main.29c0fe22.js.map": "/static/js/main.29c0fe22.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ddaf677.css",
+    "static/js/main.29c0fe22.js"
+  ]
+}
