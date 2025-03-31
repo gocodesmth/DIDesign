@@ -1,0 +1,78 @@
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 40px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0 5px 35px rgb(181, 187, 214);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.page div {
+    width: 80%;
+    text-align: justify;
+}
+
+.page p {
+    font-size: 20px;
+}
+
+.skill_title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+    color:#27357c;
+    margin: 40px auto;
+}
+
+
+@keyframes  bounce-skills {
+    0%{
+        transform: translate(0);
+    }
+    20%{
+        transform: translate(-6px);
+    }
+    40%{
+        transform: translate(0);
+    }
+    60%{
+        transform: translate(-3px);
+    }
+    80%{
+        transform: translate(0);
+    }
+}
+
+@media(max-width: 768px) {
+
+    .container {
+        padding: 0 14px;
+    }
+
+    .page {
+        padding: 25px 0;
+    }
+
+    .skill_title {
+        font-size: 40px
+    }
+
+    .page p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 380px) {
+
+    .skill_title {
+        font-size: 30px
+    }
+}

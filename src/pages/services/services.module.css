@@ -1,0 +1,234 @@
+.scopeSection {
+    padding: 20px;
+    background: white;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27357c;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.description {
+    margin: 10px 0;
+}
+
+.listsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.list li {
+    padding: 4px;
+    list-style: inside
+}
+
+.divider {
+    margin: 20px 0;
+    border: 1px solid #27357c;
+}
+
+.footer {
+    font-style: italic;
+}
+
+.headerSecond {
+    display: flex;
+    justify-content: center;
+}
+
+.containerSecond {
+    max-width: 1100px;
+    margin: 100px auto 0;
+}
+
+.timeline {
+    margin-top: 20px;
+}
+
+.timelineList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.timelineList li {
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.timelineList li::before {
+    content: "⚫";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.workList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.workItems {
+    width: 45%;
+    list-style: none;
+    padding: 0;
+}
+
+.workItems li {
+    padding: 8px 8px 8px 20px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.documentationBlock {
+    width: 50%;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.documentationBlock h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.documentationBlock ul {
+    padding: 0;
+}
+
+.documentationBlock li {
+    padding: 5px 0;
+    list-style: inside
+}
+
+.serviceList {
+    list-style: none;
+    padding: 0;
+}
+
+.serviceList li {
+    font-size: 16px;
+    color: #333;
+    margin: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.serviceList li::before {
+    content: '\2022';
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.conclusion {
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .serviceList li {
+        font-size: 12px;
+    }
+
+    .conclusion {
+        font-size: 11px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 60px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 17px;
+    }
+
+    .listsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .list {
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+    }
+
+    .divider {
+        margin: 20px 0;
+    }
+
+    .footer p {
+        font-size: 11px;
+        text-align: center;
+    }
+    .listsContainer {
+        flex-direction: column;
+    }
+
+    .timelineList li {
+        font-size: 11px;
+    }
+
+    .workItems, .documentationBlock {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .workList {
+        flex-direction: column;
+    }
+}

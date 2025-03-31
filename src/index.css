@@ -1,0 +1,16 @@
+@import './resset.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+
+/*html, body {*/
+/*    all: unset;*/
+/*    font-family: 'DM Sans', sans-serif;*/
+
+/*}*/
+
+/*font-family: 'DM Sans', sans-serif;*/
+/*font-family: 'Poppins', sans-serif;*/

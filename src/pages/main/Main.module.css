@@ -1,0 +1,110 @@
+.back_container {
+    display: block;
+    max-width: 100%;
+    margin: 80px 0 50px 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../img/icons/na-gazovykh-trassakh_2015.06.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1400px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 40px 0;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.description h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #27357c;
+}
+
+.description p {
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0 auto 40px;
+    max-width: 900px;
+}
+
+.description p + p {
+    margin-top: 1em;
+}
+
+.logo {
+    width: 150px;
+}
+
+.avatar {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #8e8e8f, -5px -5px 15px #7e7d7d;
+    max-width: 700px;
+    max-height: 600px;
+    z-index: 3;
+    margin: 50px auto 50px;
+}
+
+.avatar img {
+    border-radius: 20px;
+}
+
+
+@media (max-width: 750px) {
+    .main {
+        justify-content: center;
+    }
+    .avatar {
+        max-width: 400px
+    }
+
+    .description h1 {
+        font-size: 40px
+    }
+
+    .description p {
+        font-size: 15px
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .main {
+        justify-content: center;
+    }
+
+    .avatar {
+        max-width: 400px
+    }
+
+    .description h1 {
+        font-size: 25px
+    }
+
+    .description p {
+        font-size: 15px
+    }
+
+    .btn {
+        height: 40px;
+        padding: 10px 20px;
+    }
+}
+
