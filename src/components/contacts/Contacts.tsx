@@ -65,7 +65,6 @@ export const Contacts = () => {
                 viewport={{ amount: 0.2 }}
                 className={s.contacts} >
                 <motion.h3 className={s.contacts_title}>Свяжитесь с нами:</motion.h3>
-                <div className={s.svyaz}>Свяжитесь с нами:</div>
                 <div className={s.contacts_body}>
                     <motion.div custom={1} variants={myContactsAnimation} className={s.contacts_info}>
                         <div className={s.contacts_data}>

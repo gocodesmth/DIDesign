@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ddaf677.css",
-    "main.js": "/static/js/main.806f5d5e.js",
+    "main.js": "/static/js/main.fe2e1e74.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/na-gazovykh-trassakh_2015.06.jpg": "/static/media/na-gazovykh-trassakh_2015.06.0a356e725edeaa00e91c.jpg",
     "static/media/d8001hkfl4bnw6xkxgllu9bkckglvvfr.jpg": "/static/media/d8001hkfl4bnw6xkxgllu9bkckglvvfr.90b9c4431a6dc486aa41.jpg",
@@ -19,11 +19,11 @@
     "static/media/close.svg": "/static/media/close.b6851a7d405a1e46feacb09b609ec2dc.svg",
     "static/media/menu.svg": "/static/media/menu.74db66763c780cdd5b35521056800dfd.svg",
     "main.3ddaf677.css.map": "/static/css/main.3ddaf677.css.map",
-    "main.806f5d5e.js.map": "/static/js/main.806f5d5e.js.map",
+    "main.fe2e1e74.js.map": "/static/js/main.fe2e1e74.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ddaf677.css",
-    "static/js/main.806f5d5e.js"
+    "static/js/main.fe2e1e74.js"
   ]
 }
