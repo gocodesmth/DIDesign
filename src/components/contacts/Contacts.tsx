@@ -1,9 +1,9 @@
-import React, {ChangeEvent, useState} from 'react';
-import {motion} from 'framer-motion'
+import React, { ChangeEvent, useState } from 'react';
+import { motion } from 'framer-motion'
 import s from './Contacts.module.css'
 import email from '../../img/mail.svg'
 import phone from '../../img/phone.svg'
-import {useForm} from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 export const Contacts = () => {
     const [user_name, setName] = useState('');
@@ -52,7 +52,7 @@ export const Contacts = () => {
         visible: (custom: number) => ({
             x: 0,
             opacity: 1,
-            transition: {delay: custom * 0.2}
+            transition: { delay: custom * 0.2 }
         }),
     }
 
@@ -62,21 +62,21 @@ export const Contacts = () => {
             <motion.div
                 initial='hidden'
                 whileInView='visible'
-                viewport={{amount: 0.2}}
+                viewport={{ amount: 0.2 }}
                 className={s.contacts} >
-                <motion.h3 className={s.contacts_title}>Спасибо за внимание!</motion.h3>
+                <motion.h3 className={s.contacts_title}>Свяжитесь с нами:</motion.h3>
                 <div className={s.svyaz}>Свяжитесь с нами:</div>
                 <div className={s.contacts_body}>
                     <motion.div custom={1} variants={myContactsAnimation} className={s.contacts_info}>
                         <div className={s.contacts_data}>
                             <div>
-                                <img src={email} alt="mail" className={s.icon}/><span>Почта</span>
+                                <img src={email} alt="mail" className={s.icon} /><span>Почта</span>
                             </div>
                             <span>info.di.intel.design@gmail.com</span>
                         </div>
                         <div className={s.contacts_data}>
                             <div className={s.icon}>
-                                <img src={phone} alt="call" className={s.icon}/><span>Номер</span>
+                                <img src={phone} alt="call" className={s.icon} /><span>Номер</span>
                             </div>
                             <span>+998948788558</span>
                         </div>
@@ -86,18 +86,18 @@ export const Contacts = () => {
                             <div className={s.form_container}>
                                 <label>Имя</label>
                                 <input value={user_name} onChange={onChangeNameHandler} id="name" type="text"
-                                       name="name" required className={s.contacts_form_input}
-                                       placeholder="Имя"
+                                    name="name" required className={s.contacts_form_input}
+                                    placeholder="Имя"
                                 />
                                 <label>Ваша почта</label>
                                 <input value={user_email} onChange={onChangeEmailHandler} id="email" type="email"
-                                       name="email" required className={s.contacts_form_input}
-                                       placeholder="Почта"
+                                    name="email" required className={s.contacts_form_input}
+                                    placeholder="Почта"
                                 />
                                 <label>Сообщение</label>
                                 <textarea value={message} onChange={onChangeMessageHandler} id="message" name="message"
-                                          required className={`${s.contacts_form_input} ${s.form_box}`}
-                                          placeholder=""
+                                    required className={`${s.contacts_form_input} ${s.form_box}`}
+                                    placeholder=""
                                 />
                             </div>
                             {showSuccessMessage &&
