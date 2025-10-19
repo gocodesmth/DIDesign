@@ -105,7 +105,7 @@ export const Contacts = () => {
                                 </div>
                             }
                             <button type={'submit'} className={s.contacts_button} disabled={state.submitting}>
-                                Submit
+                                Отправить
                             </button>
                         </form>
                     </motion.div>
